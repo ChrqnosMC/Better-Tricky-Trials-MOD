@@ -10,10 +10,6 @@ import net.minecraft.util.Identifier;
 public class CustomEffects {
     public static RegistryEntry.Reference<StatusEffect> DREAMING = registerEffect("dreaming", new DreamingEffect(StatusEffectCategory.BENEFICIAL, 15978425));
 
-    public static RegistryEntry.Reference<StatusEffect> BASTION_OMEN = registerEffect("bastion_omen", new BastionOmenEffect(StatusEffectCategory.NEUTRAL, 16750848));
-
-    public static RegistryEntry.Reference<StatusEffect> CITY_OMEN = registerEffect("city_omen", new CityOmenEffect(StatusEffectCategory.NEUTRAL, 13565951));
-
     public static RegistryEntry.Reference<StatusEffect> registerEffect(String id, StatusEffect statusEffect) {
         return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(net.chrqnos.better_tricky_trials.BetterTrickyTrials.MOD_ID, id), statusEffect);
     }
