@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "better_tricky_trials",
+	"version": "${version}",
+	"name": "Better Tricky Trials",
+	"description": "Mod that is used as a library for Better Tricky Trials Datapack",
+	"authors": [
+		"Chrqnos"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chrqnos.better_tricky_trials.BetterTrickyTrials"
+		]
+	},
+	"mixins": [
+		"better_tricky_trials.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": ">=1.21-alpha.24.21.a",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

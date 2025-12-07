@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.chrqnos.better_tricky_trials.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PhantomSpawnerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
