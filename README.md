@@ -1,2 +1,2 @@
-# More Vault MOD
-  Mods that is used as a library for More Vault DP
+# Better Tricky Trials MOD
+  Mods that is used as a library for Better Tricky Trials DP
