@@ -8,6 +8,6 @@ public class BetterTrickyTrials implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		CustomEffects.registerStatusEffects();
+		CustomEffects.registerEffects();
 	}
 }
